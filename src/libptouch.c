@@ -61,7 +61,7 @@ struct _pt_dev_info ptdevs[] = {
 	{0x04f9, 0x205f, "PT-E500", 180, 16, FLAG_RASTER_PACKBITS},
 	/* Note about the PT-E500: was reported by Jesse Becker with the
 	   remark that it also needs some padding (white pixels) */
-	{0x04f9, 0x2060, "PT-E550W", 128, 180, FLAG_RASTER_PACKBITS},
+	{0x04f9, 0x2060, "PT-E550W", 180, 16, FLAG_RASTER_PACKBITS},
 	{0x04f9, 0x2061, "PT-P700", 180, 16, FLAG_RASTER_PACKBITS|FLAG_P700_INIT},
 	{0x04f9, 0x2064, "PT-P700 (PLite Mode)", 128, 16, FLAG_PLITE},
 	{0x04f9, 0x2073, "PT-D450", 180, 16, FLAG_RASTER_PACKBITS},
